@@ -4,9 +4,9 @@ package Activity;
 	int roll;
 	String name;
 	float fee;
-	static String college="ABC";
+	static String collage="ABC";
 	static void change() {
-		college="CAB";
+		collage="CAB";
 	}
 	StaticMethod1(int roll, String name, float fee){
 		this.roll=roll;
@@ -14,7 +14,7 @@ package Activity;
 		this.fee=fee;
 	}
 	void show() {
-		System.out.println(roll+" "+name+" "+fee+ " "+college);
+		System.out.println(roll+" "+name+" "+fee+ " "+collage);
 	}
   class StaticMethod{
 	public static void main(String[] args) {
